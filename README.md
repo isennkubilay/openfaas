@@ -1,5 +1,5 @@
 
-## Kubernes OpenFaas Installation
+## Kubernetes OpenFaas Installation
 
 1. ```
    kubectl apply -f https://raw.githubusercontent.com/openfaas/faas-netes/master/namespaces.yml
