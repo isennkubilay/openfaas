@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://192.168.1.240:31112
+functions:
+  astronaut-finder:
+    lang: python3
+    handler: ./astronaut-finder
+    image: kisen/astronaut-finder:latest
+
