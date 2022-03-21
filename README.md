@@ -40,7 +40,7 @@
 
 ## Astronaut-Finder Function Deploy 
 
-We'll create a function called astronaut-finder that pulls in a random name of someone in space aboard the International Space Station (ISS). Data from: [astros](http://api.open-notify.org/astros.json)
+I created a function called astronaut-finder that pulls in a random name of someone in space aboard the International Space Station (ISS). Data from: [astros](http://api.open-notify.org/astros.json)
 
 1. `faas-cli new --lang python3 astronaut-finder --prefix="kisen"`  
 2. `faas-cli build -f ./astronaut-finder.yml`
